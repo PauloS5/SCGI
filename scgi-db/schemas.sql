@@ -46,7 +46,8 @@ CREATE TABLE IF NOT EXISTS tbGoals (
     goal_limit_date     DATE                        NOT NULL,
     PRIMARY KEY (goal_id_pk),
     FOREIGN KEY (goal_user_id_fk) REFERENCES tbUsers(user_id_pk) ON DELETE CASCADE,
-    CHECK ()
+    CHECK (goal_value > 0),
+    CHECK (goal_title > '')
 ) ENGINE=InnoDB CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 /* Destroy Tables and Database */
