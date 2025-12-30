@@ -36,16 +36,17 @@ CREATE TABLE IF NOT EXISTS tbTransactions (
 
 /* Table for Goals */
 CREATE TABLE IF NOT EXISTS tbGoals (
-    goal_id_pk          BIGINT UNSIGNED     AUTO_INCREMENT,
-    goal_user_id_fk     BIGINT UNSIGNED     NOT NULL,
-    goal_value          DECIMAL(10, 2)      NOT NULL,
-    goal_title          VARCHAR(276)        NOT NULL,
+    goal_id_pk          BIGINT UNSIGNED             AUTO_INCREMENT,
+    goal_user_id_fk     BIGINT UNSIGNED             NOT NULL,
+    goal_value          DECIMAL(10, 2) UNSIGNED     NOT NULL,
+    goal_title          VARCHAR(276)                NOT NULL,
     goal_description    VARCHAR(512),
-    goal_status         ENUM('OPEN', 
-                        'CLOSED')           DEFAULT 'OPEN',
-    goal_limit_date     DATE                NOT NULL,
+    goal_status         ENUM('OPEN',
+                        'CLOSED')                   DEFAULT 'OPEN',
+    goal_limit_date     DATE                        NOT NULL,
     PRIMARY KEY (goal_id_pk),
-    FOREIGN KEY (goal_user_id_fk) REFERENCES tbUsers(user_id_pk) ON DELETE CASCADE
+    FOREIGN KEY (goal_user_id_fk) REFERENCES tbUsers(user_id_pk) ON DELETE CASCADE,
+    CHECK ()
 ) ENGINE=InnoDB CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 /* Destroy Tables and Database */
