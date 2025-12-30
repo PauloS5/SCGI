@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"c61dffd25e441881","type":"text","text":"# Transaction","x":-360,"y":-200,"width":181,"height":60,"color":"4"},
+		{"id":"8f7d83d0f245cf42","type":"text","text":"### Controle","x":100,"y":-100,"width":160,"height":60,"color":"4"},
+		{"id":"ad53ec1657b571ca","type":"text","text":"### Serviço","x":100,"y":-20,"width":160,"height":60,"color":"4"},
+		{"id":"40ce19e938c1dfb1","type":"text","text":"### Repositório","x":100,"y":60,"width":160,"height":60,"color":"4"},
+		{"id":"7fd2794a413bbe50","type":"text","text":"### Modelo","x":100,"y":140,"width":160,"height":60,"color":"4"},
+		{"id":"b8c1e03b47ef54db","type":"text","text":"## Camadas","x":-120,"y":-200,"width":140,"height":60,"color":"4"}
+	],
+	"edges":[
+		{"id":"8e51bcf9852c2d56","fromNode":"c61dffd25e441881","fromSide":"right","toNode":"b8c1e03b47ef54db","toSide":"left","color":"4"},
+		{"id":"859c838cb3034dd7","fromNode":"b8c1e03b47ef54db","fromSide":"bottom","toNode":"8f7d83d0f245cf42","toSide":"left","color":"4"},
+		{"id":"f711195fcc426ea8","fromNode":"b8c1e03b47ef54db","fromSide":"bottom","toNode":"ad53ec1657b571ca","toSide":"left","color":"4"},
+		{"id":"8b397982c30e7a52","fromNode":"b8c1e03b47ef54db","fromSide":"bottom","toNode":"40ce19e938c1dfb1","toSide":"left","color":"4"},
+		{"id":"55a0507a5bad17cb","fromNode":"b8c1e03b47ef54db","fromSide":"bottom","toNode":"7fd2794a413bbe50","toSide":"left","color":"4"}
+	]
+}
