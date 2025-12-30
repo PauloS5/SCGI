@@ -15,7 +15,10 @@ CREATE TABLE IF NOT EXISTS tbUsers (
     user_fullname   VARCHAR(255)    NOT NULL,
     user_email      VARCHAR(254)    NOT NULL UNIQUE,
     user_doc        VARCHAR(14)     NOT NULL UNIQUE,
-    PRIMARY KEY (user_id_pk)
+    PRIMARY KEY (user_id_pk),
+    CHECK (CHAR_LENGTH(user_fullname) > 0)
+    CHECK (user_email REGEXP '^[a-zA-Z_.]+@[a-zA-Z_.]+$'),
+    CHECK (user_doc RLIKE '^[0-9]{11}|[0-9]{14}$'),
 ) ENGINE=InnoDB CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 /* Table for Transactions */
