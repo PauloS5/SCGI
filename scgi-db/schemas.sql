@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS tbTransactions (
                             'EXP_FOOD', 'EXP_TRANSPORT', 'EXP_ENTERTAINMENT', 'EXP_INVOICE', 
                             'OTHER')        NOT NULL,
     PRIMARY KEY (transaction_id_pk),
-    FOREIGN KEY (transaction_user_id_fk) REFERENCES tbUsers(user_id_pk)
+    FOREIGN KEY (transaction_user_id_fk) REFERENCES tbUsers(user_id_pk) ON DELETE CASCADE
 ) ENGINE=InnoDB CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 /* Table for Goals */
@@ -45,7 +45,7 @@ CREATE TABLE IF NOT EXISTS tbGoals (
                         'CLOSED'),          DEFAULT 'OPEN',
     goal_limit_date     DATE                NOT NULL
     PRIMARY KEY (goal_id_pk),
-    FOREIGN KEY (goal_user_id_fk) REFERENCES tbUsers(user_id_pk)
+    FOREIGN KEY (goal_user_id_fk) REFERENCES tbUsers(user_id_pk) ON DELETE CASCADE
 ) ENGINE=InnoDB CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 /* Destroy Tables and Database */
