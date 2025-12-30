@@ -31,7 +31,8 @@ CREATE TABLE IF NOT EXISTS tbTransactions (
                             'EXP_FOOD', 'EXP_TRANSPORT', 'EXP_ENTERTAINMENT', 'EXP_INVOICE', 
                             'OTHER')        NOT NULL,
     PRIMARY KEY (transaction_id_pk),
-    FOREIGN KEY (transaction_user_id_fk) REFERENCES tbUsers(user_id_pk) ON DELETE CASCADE
+    FOREIGN KEY (transaction_user_id_fk) REFERENCES tbUsers(user_id_pk) ON DELETE CASCADE,
+    CHECK (transaction_value != 0)''
 ) ENGINE=InnoDB CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 /* Table for Goals */
