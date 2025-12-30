@@ -24,7 +24,9 @@ CREATE TABLE IF NOT EXISTS tbTransactions (
     transaction_user_id_fk  BIGINT UNSIGNED NOT NULL,
     transaction_value       DECIMAL(10, 2)  NOT NULL,
     transaction_description VARCHAR(512),
-    transaction_category    ENUM('INC_SALARY', 'INC_INVESTMENT', 'INC_FREELANCE', 'INC_DONATION', 'EXP_FOOD', 'EXP_TRANSPORT', 'EXP_ENTERTAINMENT', 'EXP_INVOICE', 'OTHER') NOT NULL,
+    transaction_category    ENUM('INC_SALARY', 'INC_INVESTMENT', 'INC_FREELANCE', 'INC_DONATION', 
+                            'EXP_FOOD', 'EXP_TRANSPORT', 'EXP_ENTERTAINMENT', 'EXP_INVOICE', 
+                            'OTHER')        NOT NULL,
     PRIMARY KEY (transaction_id_pk),
     FOREIGN KEY (transaction_user_id_fk) REFERENCES tbUsers(user_id_pk)
 ) ENGINE=InnoDB CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
@@ -36,6 +38,9 @@ CREATE TABLE IF NOT EXISTS tbGoals (
     goal_value          DECIMAL(10, 2)      NOT NULL,
     goal_title          VARCHAR(276)        NOT NULL,
     goal_description    VARCHAR(512),
+    goal_status         ENUM('OPEN', 
+                        'CLOSED')           DEFAULT 'OPEN',
+    goal_limit_date     DATE                NOT NULL,
     PRIMARY KEY (goal_id_pk),
     FOREIGN KEY (goal_user_id_fk) REFERENCES tbUsers(user_id_pk)
 ) ENGINE=InnoDB CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
