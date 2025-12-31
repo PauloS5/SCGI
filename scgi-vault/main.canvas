@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"a12de05d4aba36d7","type":"text","text":"#### Metas\n- [ ] Goals\n- [ ] Goal","x":-319,"y":-644,"width":250,"height":114,"color":"4"},
+		{"id":"b010ea349723c2f5","type":"text","text":"#### Gerais\n- [ ] [[Homepage]]\n- [ ] [[Signin]]\n- [ ] [[Signup]]\n- [ ] [[Dashboard]]\n- [ ] [[Profile]]\n","x":-605,"y":-644,"width":250,"height":208,"color":"4"},
+		{"id":"6ca6155369dd10a0","type":"text","text":"#### Transações\n- [ ] Transactions\n- [ ] Transaction","x":-892,"y":-641,"width":250,"height":114,"color":"4"},
+		{"id":"959f1267cf2ef108","type":"text","text":"### Páginas","x":-539,"y":-817,"width":119,"height":50,"color":"4"},
+		{"id":"c53add64b3af5659","type":"file","file":"icons/client.svg","x":-194,"y":-1018,"width":95,"height":95,"color":"#44cf6e"},
+		{"id":"dd648205fc4644f4","type":"file","file":"icons/server.svg","x":640,"y":-1018,"width":95,"height":95,"color":"#fb464c"},
+		{"id":"86fb3a38d3346fcc","type":"text","text":"### Reutilizáveis\n- [ ] [[Header|Header]]\n- [ ] [[Footer]]\n- [ ] [[Menu]]\n- [ ] [[Confirmar Ação]]","x":40,"y":-672,"width":210,"height":180,"color":"4"},
+		{"id":"c11110c5b0b9d97d","type":"text","text":"### Tecnologias\n- Vue\n- Vite\n- Tailwind\n- Daisy.ui\n- Nuxt (Opcional)","x":40,"y":-921,"width":210,"height":209,"color":"4"},
+		{"id":"9af756fb764867ed","type":"text","text":"### Domínios\n- [[User.canvas|User]]\n- [[Transaction.canvas|Transaction]]\n- [[Goal.canvas|Goal]]","x":440,"y":-888,"width":151,"height":144,"color":"1"},
+		{"id":"886324db885dbc00","type":"text","text":"### Tecnologias\n- Laravel","x":780,"y":-888,"width":156,"height":81,"color":"1"},
+		{"id":"5b8162fb4c10e5b2","x":1080,"y":-1016,"width":95,"height":95,"color":"4","type":"file","file":"icons/database.svg"},
+		{"id":"d0eb4d1c7cb349a3","x":1220,"y":-890,"width":250,"height":146,"color":"4","type":"text","text":"### Tabelas\n- tbUser\n- tbTransactions\n- tbGoals"},
+		{"id":"ae303b38787d52fa","type":"text","text":"### Views","x":1220,"y":-712,"width":250,"height":146,"color":"4"}
+	],
+	"edges":[
+		{"id":"69d4f35160233e62","fromNode":"959f1267cf2ef108","fromSide":"bottom","toNode":"b010ea349723c2f5","toSide":"top","color":"4"},
+		{"id":"54828259e12a904e","fromNode":"959f1267cf2ef108","fromSide":"bottom","toNode":"6ca6155369dd10a0","toSide":"top","color":"4"},
+		{"id":"da19010b9249617f","fromNode":"c53add64b3af5659","fromSide":"bottom","toNode":"959f1267cf2ef108","toSide":"right","color":"4"},
+		{"id":"2e6658659945b59f","fromNode":"c53add64b3af5659","fromSide":"bottom","toNode":"c11110c5b0b9d97d","toSide":"left","color":"4"},
+		{"id":"54669b909a056ff7","fromNode":"959f1267cf2ef108","fromSide":"bottom","toNode":"a12de05d4aba36d7","toSide":"top","color":"4"},
+		{"id":"ba638da93ef44f5f","fromNode":"c53add64b3af5659","fromSide":"bottom","toNode":"86fb3a38d3346fcc","toSide":"left","color":"4"},
+		{"id":"1ced887bb7a0b6d6","fromNode":"dd648205fc4644f4","fromSide":"bottom","toNode":"886324db885dbc00","toSide":"left","color":"1"},
+		{"id":"2941bf13c0865194","fromNode":"dd648205fc4644f4","fromSide":"bottom","toNode":"9af756fb764867ed","toSide":"right","color":"1"},
+		{"id":"48fd8819273b88f9","fromNode":"5b8162fb4c10e5b2","fromSide":"bottom","toNode":"d0eb4d1c7cb349a3","toSide":"left","color":"4"},
+		{"id":"3b3e80df0400fb36","fromNode":"5b8162fb4c10e5b2","fromSide":"bottom","toNode":"ae303b38787d52fa","toSide":"left","color":"4"}
+	]
+}

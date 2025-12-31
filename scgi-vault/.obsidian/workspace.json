@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "ae8700bca38fecdc",
+    "type": "split",
+    "children": [
+      {
+        "id": "32b03bf2d174551e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f99c81a0e31ff124",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "main.canvas",
+                "viewState": {
+                  "x": 1044.56843860043,
+                  "y": -660.1312167967665,
+                  "zoom": -0.8010842105428593
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-layout-dashboard",
+              "title": "main"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7a3619336d94afc4",
+    "type": "split",
+    "children": [
+      {
+        "id": "328e8d41e8a8d6ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f2acaa86b4cd2f8c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "1f83fbdfa985d81a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "6eff93070ce2af52",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4d12022dc4d6e6c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "9aa1e6f26e6f8519",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "764197d8e8f81c0e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SCGI/arquitetura.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para arquitetura"
+            }
+          },
+          {
+            "id": "bb6a70b9aa4cf97a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "SCGI/arquitetura.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para arquitetura"
+            }
+          },
+          {
+            "id": "9a4ebf554f2275d0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4cbe0c8116e5a8fc",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "8acead8b809896b5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SCGI/arquitetura.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de arquitetura"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
+    }
+  },
+  "active": "f99c81a0e31ff124",
+  "lastOpenFiles": [
+    "icons/database.svg",
+    "main.canvas",
+    "guides/pages/Dashboard.md",
+    "guides/pages/Profile.md",
+    "guides/pages/Homepage.md",
+    "guides/pages/Signup.md",
+    "guides/pages/Signin.md",
+    "guides/utils/Confirmar Ação.md",
+    "guides/utils/Footer.md",
+    "guides/domains/User.canvas",
+    "guides/utils/Menu.md",
+    "guides/utils/Header.md",
+    "guides/utils/Sem título.canvas",
+    "guides/utils",
+    "guides/domains/Transaction.canvas",
+    "guides/domains/Goal.canvas",
+    "guides/domains/Goal.md",
+    "guides/domains/User.md",
+    "guides/domains/Transaction.md",
+    "guides/domains/Sem título.base",
+    "icons/server.svg",
+    "guides/domains",
+    "icons/client.svg",
+    "icons/http.svg",
+    "irrigador_automatico/main.pdf",
+    "irrigador_automatico/main.md",
+    "irrigador_automatico",
+    "guides/pages",
+    "guides",
+    "Sem título 1",
+    "icons/cores.txt",
+    "SCGI/http_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg",
+    "icons",
+    "SCGI/database_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg",
+    "SCGI/computer_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg",
+    "SCGI/storage_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg",
+    "http_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg",
+    "database_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg",
+    "Sem título.canvas",
+    "crie um link.md",
+    "Bem-vindo.md"
+  ]
+}

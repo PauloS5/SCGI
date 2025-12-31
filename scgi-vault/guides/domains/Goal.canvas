@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"fa29157b4de47c29","type":"text","text":"### Controle","x":150,"y":-100,"width":160,"height":60,"color":"3"},
+		{"id":"4575cfa8b0cbcd21","type":"text","text":"### Serviço","x":150,"y":-20,"width":160,"height":60,"color":"3"},
+		{"id":"15f0211c450521fa","type":"text","text":"### Repositório","x":150,"y":60,"width":160,"height":60,"color":"3"},
+		{"id":"59c37f0dd6388ecc","type":"text","text":"### Modelo","x":150,"y":140,"width":160,"height":60,"color":"3"},
+		{"id":"ea4e12253b6914c7","type":"text","text":"# Goal","x":-280,"y":-200,"width":100,"height":60,"color":"3"},
+		{"id":"8b666a2da104d499","type":"text","text":"## Camadas","x":-100,"y":-200,"width":140,"height":60,"color":"3"}
+	],
+	"edges":[
+		{"id":"c2899c9a9645f831","fromNode":"ea4e12253b6914c7","fromSide":"right","toNode":"8b666a2da104d499","toSide":"left","color":"3"},
+		{"id":"95bba778f425a760","fromNode":"8b666a2da104d499","fromSide":"bottom","toNode":"fa29157b4de47c29","toSide":"left","color":"3"},
+		{"id":"38855fb1ff406f45","fromNode":"8b666a2da104d499","fromSide":"bottom","toNode":"4575cfa8b0cbcd21","toSide":"left","color":"3"},
+		{"id":"090e83e56dc55230","fromNode":"8b666a2da104d499","fromSide":"bottom","toNode":"15f0211c450521fa","toSide":"left","color":"3"},
+		{"id":"9f5ef29cbcddb296","fromNode":"8b666a2da104d499","fromSide":"bottom","toNode":"59c37f0dd6388ecc","toSide":"left","color":"3"}
+	]
+}
